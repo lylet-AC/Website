@@ -1,17 +1,22 @@
-{{ "<!-- BEGIN HERO PANEL -->" | safeHTML }}
+{{ "<!-- BEGIN PROJECT PANEL -->" | safeHTML }}
 
 <section class="project">
   <div class="wrapper">
-    <h3>{{ .Site.Data.projects.name }}</h3>
-    <div class="panel panel-default">
+
+    <h3><strong>{{ .Site.Data.projects.name }}</strong></h3>
+
+    <div class="panel proj-panel-default">
 
       <!--<div class="panel-body">-->
       {{ range $i, $el := .Site.Data.projects.source }}
         <h5>
           <i class="{{ .icon }}"></i>&nbsp;&nbsp;
-          <strong><a href="{{ $el.url }}">{{ $el.name }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}
+          <strong><a href="{{ $el.url }}">{{ $el.name }}</a></strong>
         </h5>
+        <p>{{ $el.description }}</p>
+
+
       {{ end }}
       </div>
   </div>
-</section> {{ "<!-- END HERO PANEL -->" | safeHTML }}
+</section> {{ "<!-- END PROJECT PANEL -->" | safeHTML }}
