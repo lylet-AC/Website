@@ -11,6 +11,43 @@ Global Styles
 .off-canvas-wrapper {
 	background-color: #222;
 }
+
+/*************
+About Me
+************** */
+
+.about {
+	background-color: #cccccc;
+	padding: 10px 5px 15px 5px;
+			/*top right bottom left*/
+	background-image: url("../img/swirl_pattern.png");
+	min-height: 750px;
+}
+
+.about h3 {
+	padding: 0px 0px 0px 0px;
+			/*top right bottom left*/
+	border-bottom: 2px solid #ddd;
+	text-align: left;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.about img {
+	padding: 5px 20px 5px 20px;
+			/*top right bottom left*/
+	border-radius: 50%;
+	float:left;
+	clear: left;
+}
+.about p {
+	padding: 5px 15px 5px 15px;
+	/*top right bottom left*/
+	text-align: justify;
+  font-size: 22px;
+
+}
+
 /*************
 Blog - Individual
 ************** */

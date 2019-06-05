@@ -1,0 +1,11 @@
+{{ "<!-- BEGIN PROJECT PANEL -->" | safeHTML }}
+
+<section class="about">
+  <div class="wrapper">
+
+    <h3><strong>{{ .Site.Params.aboutme.title }}</strong></h3>
+    <img class="img-circle" height="{{ .Site.Params.aboutme.img_height }}" width="{{ .Site.Params.aboutme.img_width }}" src="{{ .Site.BaseURL }}img/{{ .Site.Params.aboutme.img }}" alt="Responsive image">
+    <p>{{ .Site.Params.aboutme.about_text }}</p>
+
+  </div>
+</section> {{ "<!-- END PROJECT PANEL -->" | safeHTML }}

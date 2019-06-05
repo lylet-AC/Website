@@ -41,7 +41,13 @@
 
 					<!-- Add your own content here -->
 
-					{{ partial "projects.html" . }}
+					<!--{{ partial "projects.html" . }}-->
+
+					{{ if .Params.page }}
+			 		{{ partial .Params.page . }}
+					{{ else }}
+					<!-- Render content normally -->
+					{{ end }}
 
 					{{ partial "footer.html" . }}
 				</div> {{ "<!-- End page content menu wrapper -->" | safeHTML }}

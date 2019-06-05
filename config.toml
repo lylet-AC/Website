@@ -15,7 +15,7 @@ herotitle = "Hello, I am Tyler Lyle."
 herodiscription = "I have a passion for developing software and web apps!"
 
 btnblue = "Learn More"
-btnbluelink="/about-me/"
+btnbluelink="/aboutme/"
 
 btngreen = "Send Me an Email"
 btngreenlink="mailto:jobsearch_lylet@yahoo.com"
@@ -27,6 +27,13 @@ contentTwoTitle = "Versatility"
 contentOneBody = "As a recent recipient of a Baccalaureate of Science degree from Allegheny College, I have furthered my knowledge in the feild of Computer Science.  Specifically, my focus was regarding the Development and Engineering of Software."
 
 contentTwoBody = "Covering prevelant and pioneering topics, I have academic experience ranging from Web Development to recent developments in Artifical Intelligence such as Neural Networks.  Check out some of my projects [here.](/projects)"
+
+[params.aboutme]
+title="Title"
+img_height="200"
+img_width="200"
+img="profile.jpg"
+about_text="This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. "
 
 [params.footer]
 phone = "814-464-3068"
