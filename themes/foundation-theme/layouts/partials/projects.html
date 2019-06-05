@@ -1,9 +1,11 @@
-<section id="projects">
-  <div class="container">
+{{ "<!-- BEGIN HERO PANEL -->" | safeHTML }}
+
+<section class="project">
+  <div class="wrapper">
     <h3>{{ .Site.Data.projects.name }}</h3>
     <div class="panel panel-default">
 
-      <div class="panel-body">
+      <!--<div class="panel-body">-->
       {{ range $i, $el := .Site.Data.projects.source }}
         <h5>
           <i class="{{ .icon }}"></i>&nbsp;&nbsp;
@@ -11,7 +13,5 @@
         </h5>
       {{ end }}
       </div>
-
-    </div>
   </div>
-</section>
+</section> {{ "<!-- END HERO PANEL -->" | safeHTML }}

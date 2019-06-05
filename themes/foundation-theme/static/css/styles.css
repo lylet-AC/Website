@@ -2,8 +2,6 @@
 Global Styles
 ************** */
 
-
-
 .wrapper {
 	width: 90%;
 	max-width: 700px;
@@ -14,6 +12,25 @@ Global Styles
 	background-color: #222;
 }
 
+/*************
+Projects
+************** */
+.project {
+	background-color: #cccccc;
+	padding: 50px 0px;
+			/*top right bottom left*/
+	background-image: url("../img/swirl_pattern.png");
+}
+
+.panel {
+  border-style: none;
+}
+
+.panel-default h5 {
+	text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
 
 /*************
 Nav mobile
@@ -150,34 +167,4 @@ Media Query
 	.hero p {
 		width: 100%;
 	}
-}
-
-/*************
-Projects
-************** */
-panel-default h4 {
-  text-align: left;
-  line-height: 24px;
-  font-size: 22px;
-}
-.panel-default h5 {
-  text-align: left;
-  line-height: 30px;
-  font-size: 18px;
-}
-.panel-default h6 {
-  font-size: 15px;
-}
-.panel-default h4 a, h5 a {
-  color: #ff9baa;ff9baa
-}
-.panel-default h4 a:hover, h5 a:hover {
-  color: #ff9baa;
-}
-.panel{
-  border-style: none;
-}
-.panel-body {
-  padding-top: -10px;
-  text-align: left;
 }
