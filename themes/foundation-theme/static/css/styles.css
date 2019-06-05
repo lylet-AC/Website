@@ -67,6 +67,7 @@ Blog - List
 	padding: 10px 5px 15px 5px;
 			/*top right bottom left*/
 	background-image: url("../img/swirl_pattern.png");
+	min-height: 750px;
 }
 
 .blog-row h5 {
@@ -81,6 +82,7 @@ Projects
 	padding: 10px 5px 15px 5px;
 			/*top right bottom left*/
 	background-image: url("../img/swirl_pattern.png");
+	min-height: 750px;
 }
 
 .proj-panel-default h5 {
