@@ -1,0 +1,63 @@
+baseurl = "/"
+author = "Tyler Lyle"
+title = "Tyler Lyle"
+languageCode = "en-us"
+theme = "foundation-theme"
+enableRobotsTXT = true
+SectionPagesMenu = ["main", "social"]
+
+[params.meta]
+description = "Hugo and Foundation mobile enabled theme."
+keywords = "foundation6, hugo, responsive, theme, mobile, developer"
+
+[params.hero]
+herotitle = "Hello, I am Tyler Lyle."
+herodiscription = "I have a passion for developing software and web apps!"
+
+btnblue = "Learn More"
+btnbluelink="/about-me/"
+
+btngreen = "Send Me an Email"
+btngreenlink="mailto:jobsearch_lylet@yahoo.com"
+
+[params.main]
+contentOneTitle = "Engineering"
+contentTwoTitle = "Versatility"
+
+contentOneBody = "As a recent recipient of a Baccalaureate of Science degree from Allegheny College, I have furthered my knowledge in the feild of Computer Science.  Specifically, my focus was regarding the Development and Engineering of Software."
+
+contentTwoBody = "Covering prevelant and pioneering topics, I have academic experience ranging from Web Development to recent developments in Artifical Intelligence such as Neural Networks.  Check out some of my projects [here.](/projects)"
+
+[params.footer]
+phone = "814-464-3068"
+email = "jobsearch_lylet@yahoo.com"
+address = "2115 New Road\nWaterford PA 16441"
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+
+[[menu.main]]
+name = "About Me"
+url = "/about-me"
+
+[[menu.main]]
+name = "Resume"
+url = "/resume.pdf"
+
+[[menu.social]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/tyler-lyle/"
+
+[[menu.social]]
+name = "Twitter"
+url = "https://twitter.com/lylet_AC"
+
+[[menu.social]]
+name = "Github"
+url = "http://github.com/lylet-AC"
+
