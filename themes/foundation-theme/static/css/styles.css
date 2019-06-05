@@ -11,9 +11,55 @@ Global Styles
 .off-canvas-wrapper {
 	background-color: #222;
 }
+/*************
+Blog - Individual
+************** */
+
+.post h1 {
+	padding: 10px 0px 0px 0px;
+			/*top right bottom left*/
+	border-bottom: 2px solid #ddd;
+	text-align: left;
+	font-weight: bold;
+  font-size: 42px;
+}
+
+.post h2 {
+	padding: 10px 0px 0px 0px;
+			/*top right bottom left*/
+	border-bottom: 2px solid #ddd;
+	text-align: left;
+  font-size: 36px;
+	font-weight: bold;
+}
+
+.post h3 {
+	padding: 10px 0px 0px 0px;
+			/*top right bottom left*/
+	border-bottom: 2px solid #ddd;
+	text-align: left;
+	font-weight: bold;
+  font-size: 30px;
+}
+
+.post h4 {
+	padding: 10px 0px 0px 0px;
+			/*top right bottom left*/
+	border-bottom: 2px solid #ddd;
+	text-align: left;
+	font-weight: bold;
+  font-size: 24px;
+}
+
+.post p {
+	padding: 0px 10px 0px 20px;
+			/*top right bottom left*/
+	text-align: justify;
+  font-size: 20px;
+}
 
 /*************
-Blog
+Blog - List
 ************** */
 
 .blog {

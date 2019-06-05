@@ -35,15 +35,15 @@ address = "2115 New Road\nWaterford PA 16441"
 
 [[menu.main]]
 name = "Projects"
-url = "/projects"
+url = "/projects/"
 
 [[menu.main]]
 name = "Blog"
-url = "/blog"
+url = "/blog/"
 
 [[menu.main]]
 name = "About Me"
-url = "/aboutme"
+url = "/aboutme/"
 
 [[menu.main]]
 name = "Resume"
