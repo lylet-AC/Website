@@ -13,6 +13,21 @@ Global Styles
 }
 
 /*************
+Blog
+************** */
+
+.blog {
+	background-color: #cccccc;
+	padding: 10px 5px 15px 5px;
+			/*top right bottom left*/
+	background-image: url("../img/swirl_pattern.png");
+}
+
+.blog-row h5 {
+	display:inline-block;
+}
+
+/*************
 Projects
 ************** */
 .project {
@@ -29,6 +44,7 @@ Projects
 	text-align: left;
   font-size: 22px;
 }
+
 .proj-panel-default p {
 	padding: 0px 10px 0px 40px;
 			/*top right bottom left*/

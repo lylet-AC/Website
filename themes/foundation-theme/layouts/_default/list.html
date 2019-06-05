@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> {{ .Site.Title }} </title>
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/foundation.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css" type="text/css" media="screen">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+
+{{ partial "nav" . }}
+  <body>
+    <div class="blog">
+      <!-- Header -->
+      <div class="wrapper">
+        <h3>Posts</h3>
+          <div class="panel blog-panel-default">
+            {{ range .Data.Pages.ByPublishDate.Reverse }}
+
+              <table style="background-color:rgba(0, 0, 0, 0);">
+                <tr>
+
+                  <td style="text-align: left">
+                    <h5>
+                      <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
+                    </h5>
+                  </td>
+
+                  <td style="text-align: right">
+                    <h5>
+                      {{ .Date.Format "January 2, 2006" }}
+                    </h5>
+                  </td>
+
+                </tr>
+              </table>
+
+            {{ end }}
+            </div>
+          </div>
+      </div>
+    <!-- Footer -->
+    {{ partial "footer" . }}
+  </body>
+</html>

@@ -43,7 +43,7 @@ url = "/blog"
 
 [[menu.main]]
 name = "About Me"
-url = "/about-me"
+url = "/aboutme"
 
 [[menu.main]]
 name = "Resume"
@@ -60,4 +60,3 @@ url = "https://twitter.com/lylet_AC"
 [[menu.social]]
 name = "Github"
 url = "http://github.com/lylet-AC"
-
